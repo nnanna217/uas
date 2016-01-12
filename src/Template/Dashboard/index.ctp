@@ -38,12 +38,16 @@
 <!-- 						<iframe -->
 <!-- 							src="http://206.63.218.8/axis-cgi/mjpg/video.cgi?camera=1" -->
 <!-- 							height="250" width="100%"></iframe> -->
-							<embed scale="ToFit" id="RtspVapgCtrl" width="100%" height="250"
-								type="video/quicktime" qtsrc="rtsp://192.168.11.17:554/live.sdp"
-								qtsrcdontusebrowser="" src="/realqt.mov" autoplay="true"
-								controller="true" postdomevents="true"
-								ptzurl="/cgi-bin/camctrl/eCamCtrl.cgi"
-								style="height: 250px; width: 100%;" title="undefined">
+<!-- 							<embed scale="ToFit" id="RtspVapgCtrl" width="100%" height="250" -->
+<!-- 								type="video/quicktime" qtsrc="rtsp://192.168.11.17:554/live.sdp" -->
+<!-- 								qtsrcdontusebrowser="" src="/realqt.mov" autoplay="true" -->
+<!-- 								controller="true" postdomevents="true" -->
+<!-- 								ptzurl="/cgi-bin/camctrl/eCamCtrl.cgi" -->
+<!-- 								style="height: 250px; width: 100%;" title="undefined"> -->
+							<video src="rtsp://192.168.11.17"> Your browser does
+								not support the VIDEO tag and/or RTP streams.
+							</video>
+
 						</div>
 				</section>
 
