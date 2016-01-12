@@ -1,4 +1,4 @@
-/vendor/*
+/.idea/*
 /config/app.php
 /tmp/*
 /logs/*

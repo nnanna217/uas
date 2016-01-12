@@ -26,6 +26,7 @@ $cakeDescription = 'Dashboard1';
     </title>
 <link href="css/bootstrap.min.css" rel="stylesheet" />
 <link href="css/bootstrap-reset.css" rel="stylesheet" />
+    <link href="css/Site.css" rel="stylesheet" />
 <!--external css-->
 <link href="js/assets/font-awesome/css/font-awesome.css"
 	rel="stylesheet" />
