@@ -24,17 +24,19 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $cakeDescription ?>:
         <?= $this->fetch('title') ?>
     </title>
-    
-    
+
+
+
     <?= $this->Html->meta('icon') ?>
 
-    <?= $this->Html->css('base.css') ?>
-    <?= $this->Html->css('cake.css') ?>
+    <?= $this->Html->css(['bootstrap/bootstrap.min.css','Site.css']) ?>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 </head>
+<<<<<<< HEAD
 <body>
     <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -56,9 +58,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 </nav>
     <?= $this->Flash->render() ?>
     <section class="container clearfix">
+<body class="secure_bg">
         <?= $this->fetch('content') ?>
-    </section>
+
     <footer>
+        <?= $this->Html->script(['jquery.js','bootstrap/bootstrap.js', 'dashboard.js']); ?>
     </footer>
 </body>
 </html>
