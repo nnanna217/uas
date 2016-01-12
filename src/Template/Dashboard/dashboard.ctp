@@ -9,6 +9,7 @@
                     <div class="panel-body" style="background:#808080;color:#fff">
                         <div>
                             <h4 class="text-center"><i class="fa fa-lightbulb-o"></i> HEAT MAP</h4>
+
                             <div class="form-group label-floating">
 
                                 <input type="email" class="form-control" id="i2" placeholder="placeholder attribute">
@@ -19,7 +20,8 @@
                             <h4><i class="fa fa-user"></i> INCIDENCE REPORT</h4>
                             <section>
                                 <div class="progress no-rounded progress-sm">
-                                    <div class="progress-bar progress-bar-black" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                    <div class="progress-bar progress-bar-black" role="progressbar" aria-valuenow="80"
+                                         aria-valuemin="0" aria-valuemax="100" style="width: 100%">
                                     </div>
                                 </div>
                                 <span> 345 All Events</span>
@@ -27,7 +29,8 @@
 
                             <section style="margin-top:30px">
                                 <div class="progress no-rounded progress-sm">
-                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"
+                                         aria-valuemin="0" aria-valuemax="100" style="width: 80%">
                                     </div>
                                 </div>
                                 <span>150 Border Smuggling</span>
@@ -35,7 +38,8 @@
 
                             <section style="margin-top:30px">
                                 <div class="progress no-rounded progress-sm">
-                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80"
+                                         aria-valuemin="0" aria-valuemax="100" style="width: 50%">
                                     </div>
                                 </div>
                                 <span>135 Kidnapping</span>
@@ -89,6 +93,7 @@
 
                         <div class="" style="margin-top:30px">
                             <h4 class="text-center"><i class="fa fa-database"></i> ICONS</h4>
+
                             <div class="row" style="color:#000">
                                 <div class="col-md-2 col-md-offset-1"><i class="fa fa-user-plus fa-3x"></i></div>
                                 <div class="col-md-2 col-md-offset-1"><i class="fa fa-envelope-o fa-3x"></i></div>
@@ -106,7 +111,8 @@
         </div>
         <div class="col-md-6">
             <section>
-
+                <img width="100%" src="" id="static-map">
+                <iframe class="hidden" width="100%" height="100%" src=""></iframe>
             </section>
         </div>
         <div class="col-md-3">

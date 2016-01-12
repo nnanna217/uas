@@ -40,6 +40,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->fetch('content') ?>
 
     <footer>
+        <?= $this->Html->script(['jquery.js','bootstrap/bootstrap.js', 'dashboard.js']); ?>
     </footer>
 </body>
 </html>
