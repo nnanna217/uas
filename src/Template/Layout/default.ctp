@@ -41,7 +41,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Secure Tech Surveillance</a>
+        <a style="margin-top: -5px" class="navbar-brand" href="#"> <img style="display: inline" src="../img/STL.png" width="30" height="30" class=""/> SecureTech Surveillance</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

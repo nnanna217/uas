@@ -6,16 +6,16 @@ var Dashboard = {
         url: "",
         center: "9.054906,7.1148515",
         zoom: 6,
-        size: "1000x1000",
+        size: "700x700",
         key: "AIzaSyAGtX3dGB8IGC35TKQ8TLE-h9JACxHzGTY"
     },
     init: function(){
-        Dashboard.startStaticMap(
-            Dashboard.CONSTANTS.center,
-            Dashboard.CONSTANTS.zoom,
-            Dashboard.CONSTANTS.size,
-            Dashboard.CONSTANTS.key
-        );
+        //Dashboard.startStaticMap(
+        //    Dashboard.CONSTANTS.center,
+        //    Dashboard.CONSTANTS.zoom,
+        //    Dashboard.CONSTANTS.size,
+        //    Dashboard.CONSTANTS.key
+        //);
 
         $('#select-frame').on('change', function(){
             console.log(this);

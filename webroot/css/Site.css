@@ -64,8 +64,8 @@ textarea {
     bottom: 10px;
     font-size: 130px;
     color: #fff;
-    opacity: 0.2;
-    filter:alpha(opacity=8);
+    opacity: 0;
+    filter:alpha(opacity=10);
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);

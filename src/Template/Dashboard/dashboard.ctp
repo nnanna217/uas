@@ -63,15 +63,15 @@
 
                         <div class="info" style="margin-top:30px;  background:#029644">
                               <span class="icon_boxed bg-success set_m_icon flat" style="background:#029644">
-                                            <i class="fa fa-bus"></i>
+                                            <i class="fa fa-dashboard"></i>
                                         </span>
                             <i class="fa fa-users icon-bg"></i>
 
 
                             <div class="row" style="padding-top:50px;color:#fff">
                                 <div class="col-md-10">
-                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-user-plus fa-2x"></i><h6 style="font-size: :9px">UAV</h6></div>
-                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-envelope-o fa-2x"></i><h6  style="font-size: :6px">UAV Station</h6></div>
+                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-send fa-2x"></i><h6 style="font-size: :9px">UAV</h6></div>
+                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-wifi fa-2x"></i><h6  style="font-size: :6px">UAV Station</h6></div>
 </div>
                             </div>
                             <div class="progress no-rounded progress-xs">
@@ -80,8 +80,8 @@
                             </div>
                             <div class="row" style="margin-top:30px;color:#fff">
                                 <div class="col-md-10">
-                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-database fa-2x"></i><h6 style="font-size: :9px">UAV</h6></div>
-                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-dashboard fa-2x"></i><h6  style="font-size: :6px">UAV Station</h6></div>
+                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-database fa-2x"></i><h6 style="font-size: :9px">Critical Infrastructure</h6></div>
+                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-warning fa-2x"></i><h6  style="font-size: :6px">Reported Situation</h6></div>
                                 </div>
                             </div>
                         </div>
@@ -90,10 +90,18 @@
             </section>
         </div>
         <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12">
             <section>
-                <img style="width: 95%; display: block; margin: auto" src="" id="static-map">
+                <img style="width: 100%; display: block; margin: auto" src="../img/heat.png" height="700" id="static-map" class="">
                 <iframe style="width: 95%; margin: auto; display: block; height: 550px" id="video-feed" src=""></iframe>
             </section>
+            </div></div>
+            <div class="row" style="margin-top: 20px">
+                <div class="col-md-12">
+                    <img style="width:100% ;" src="../img/heat-bg1.jpg" class="img-responsive"/>
+                </div>
+            </div>
         </div>
         
         <div class="col-md-3">
