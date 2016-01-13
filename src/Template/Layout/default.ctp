@@ -59,6 +59,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
       <li ><?= $this->Html->link(__('Dashboard'), ['controller'=>'dashboard','action' => 'dashboard']) ?></li>
+          <li ><?= $this->Html->link(__('Social Media'), ['controller'=>'dashboard','action' => 'dashboard2']) ?></li>
         <li ><?= $this->Html->link(__('New Feed'), ['controller'=>'feeds','action' => 'add']) ?></li>
         <li><?= $this->Html->link(__('Drones'), ['controller'=>'feeds','action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('Add Users'), ['controller'=>'users','action' => 'add']) ?></li>
