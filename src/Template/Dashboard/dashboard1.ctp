@@ -3,69 +3,36 @@
 	
 
 	<div class="container-fluid">
-
-		<div class="row">
-			<div class="col-sm-6 col-md-3">
+			<div class="col-sm-6 col-md-4">
 				<div class="chart-wrapper">
-					<div class="chart-title">Cell Title</div>
 					<div class="chart-stage">
-						<div id="grid-1-1">
-							<iframe
-								src="http://aassd.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity"
-								height="200" width="250"></iframe>
-						</div>
+						<img data-src="holder.js/100%x180/white">
 					</div>
-					<div class="chart-notes">Notes about this chart</div>
+					
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3">
+			<div class="col-sm-6 col-md-4">
 				<div class="chart-wrapper">
-					<div class="chart-title">Cell Title</div>
+					
 					<div class="chart-stage">
-						<iframe
-							src="http://66.193.157.18/mjpg/video.mjpg"
-							height="250" width="100%"></iframe>
+						<img data-src="holder.js/100%x180/white">
 					</div>
-					<div class="chart-notes">Notes about this chart</div>
+					
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3">
+			<div class="col-sm-6 col-md-4">
 				<div class="chart-wrapper">
-					<div class="chart-title">Cell Title</div>
+					
 					<div class="chart-stage">
-						<iframe
-							src="http://66.193.157.18/mjpg/video.mjpg"
-							height="250" width="100%"></iframe>
+						<img data-src="holder.js/100%x180/white">
 					</div>
-					<div class="chart-notes">Notes about this chart</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<div class="chart-wrapper">
-					<div class="chart-title">Cell Title</div>
-					<div class="chart-stage">
-						<iframe
-							src="http://206.63.218.8/axis-cgi/mjpg/video.cgi?camera=1"
-							height="250" width="100%"></iframe>
-					</div>
-					<div class="chart-notes">Notes about this chart</div>
+					
 				</div>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-sm-6 col-md-3">
-				<div class="chart-wrapper">
-					<div class="chart-title">Cell Title</div>
-					<div class="chart-stage">
-						<iframe
-							src="http://tails-waipio.viewnetcam.com:50002/nphMotionJpeg?Resolution=640x480&Quality=Clarity"
-							height="250" width="100%"></iframe>
-					</div>
-					<div class="chart-notes">Notes about this chart</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3">
+			<div class="col-sm-6 col-md-6">
 				<div class="chart-wrapper">
 					<div class="chart-title">Cell Title</div>
 					<div class="chart-stage">
@@ -83,45 +50,7 @@
 					<div class="chart-notes">Notes about this chart</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3">
-				<div class="chart-wrapper">
-					<div class="chart-title">Cell Title</div>
-					<div class="chart-stage">
-						<img data-src="holder.js/100%x180/white">
-					</div>
-					<div class="chart-notes">Notes about this chart</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-sm-6 col-md-3">
-				<div class="chart-wrapper">
-					<div class="chart-title">Cell Title</div>
-					<div class="chart-stage">
-						<img data-src="holder.js/100%x180/white">
-					</div>
-					<div class="chart-notes">Notes about this chart</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<div class="chart-wrapper">
-					<div class="chart-title">Cell Title</div>
-					<div class="chart-stage">
-						<img data-src="holder.js/100%x180/white">
-					</div>
-					<div class="chart-notes">Notes about this chart</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<div class="chart-wrapper">
-					<div class="chart-title">Cell Title</div>
-					<div class="chart-stage">
-						<img data-src="holder.js/100%x180/white">
-					</div>
-					<div class="chart-notes">Notes about this chart</div>
-				</div>
-			</div>
+	
 			<div class="col-sm-6 col-md-3">
 				<div class="chart-wrapper">
 					<div class="chart-title">Cell Title</div>
