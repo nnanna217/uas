@@ -40,44 +40,13 @@
                                 </div>
                                 <span>135 Kidnapping</span>
                             </section>
-                            <section style="margin-top:30px">
-                                <div class="progress no-rounded progress-sm">
-                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80"
-                                         aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                                    </div>
-                                </div>
-                                <span>135 Robbery Attacks</span>
-                            </section>
-                            <section style="margin-top:30px">
-                                <div class="progress no-rounded progress-sm">
-                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80"
-                                         aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                                    </div>
-                                </div>
-                                <span>135 Mistaken Identity</span>
-                            </section>
                         </div>
                         <div class="" style="margin-top:30px">
 
-                            <h5 class="text-center"><i class="fa fa-bars"></i> DRILL DOWN</h5>
-                            <section>
-                                <div class="form-group">
-                                    <label for="sel1">Select location:</label>
-                                    <select class="form-control" id="select-frame">
-                                        <option value="-1">Map View</option>
-                                        <option value="https://www.youtube.com/embed/fywfkFSRHEM">Lagos</option>
-                                        <option value="https://www.youtube.com/embed/fywfkFSRHEM">Port Harcourt</option>
-                                        <option value="https://www.youtube.com/embed/fywfkFSRHEM">Abuja</option>
-                                        <option value="https://www.youtube.com/embed/fywfkFSRHEM">Kano</option>
-                                    </select>
-                                </div>
-                            </section>
 
+                        </div>
+                        </div>
 
-
-                        </div></div>
-
-<!--  
                         <div class="info" style="margin-top:30px;  background:#029644">
                               <span class="icon_boxed bg-success set_m_icon flat" style="background:#029644">
                                             <i class="fa fa-dashboard"></i>
@@ -102,39 +71,33 @@
                                 </div>
                             </div>
                         </div>
-                        -->
                     </div>
                 </div>
             </section>
         </div>
         <div class="col-md-6">
             <div class="row">
-                <div class="col-md-12">
             <section>
-                <img style="width: 100%; display: block; margin: auto" src="../img/heat.png" height="700" id="static-map" class="">
-                <iframe style="width: 95%; margin: auto; display: block; height: 550px" id="video-feed" src=""></iframe>
+                <div class="col-md-3"><div class="chart-wrapper">
+					<div class="chart-stage">
+						<img data-src="holder.js/100%x180/white">
+					</div>
+					
+				</div></div>
+                <div class="col-md-3">Test</div>
+                <div class="col-md-3">Test</div>
+                
             </section>
-            </div></div>
+            </div>
+
             <div class="row" style="margin-top: 20px">
-                <div class="col-md-12">
-                    <img style="width:100% ;" src="../img/heat-bg1.jpg" class="img-responsive"/>
-                </div>
+                
             </div>
         </div>
         
         <div class="col-md-3">
-            <section id="feeds">
-            <?php foreach ($feeds as $feed): ?>
-                <div class="panel">
-                    <div class="panel-body">
-                        <div style="background:#ccc">
-							<iframe src="<?= h($feed->url); ?>"
-							height="150" width="100%"></iframe>
-                        </div>
-                        <h5><?= h($feed->location);?></h4>
-                    </div>
-                </div>
-           <?php endforeach; ?>
+            <section>
+            
             </section>
         </div>
     </div>
