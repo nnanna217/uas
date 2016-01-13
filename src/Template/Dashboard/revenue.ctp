@@ -194,12 +194,12 @@
                                     </span>
                         </a>
                         <a href="#" class="list-group-item">
-                            <i class="fa fa-stack fa-fw"></i> 9 Bills Rejected
+                            <i class="fa fa-list-alt fa-fw"></i> 9 Bills Rejected
                                     <span class="pull-right text-muted small"><em>12 minutes ago</em>
                                     </span>
                         </a>
                         <a href="#" class="list-group-item">
-                            <i class="fa fa-envelope fa-fw"></i> 9 Pending Invoice
+                            <i class="fa fa-list-ol fa-fw"></i> 9 Pending Invoice
                                     <span class="pull-right text-muted small"><em>27 minutes ago</em>
                                     </span>
                         </a>
