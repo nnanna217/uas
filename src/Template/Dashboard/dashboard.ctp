@@ -105,6 +105,7 @@
 							<iframe src="<?= h($feed->url); ?>"
 							height="150" width="100%"></iframe>
                         </div>
+                        <h5><?= h($feed->location);?></h4>
                     </div>
                 </div>
            <?php endforeach; ?>
