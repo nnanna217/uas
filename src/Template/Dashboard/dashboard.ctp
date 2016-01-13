@@ -115,39 +115,24 @@
                 <iframe class="hidden" width="100%" height="100%" src=""></iframe>
             </section>
         </div>
+        
         <div class="col-md-3">
             <section>
+                
+            
+            
+            <?php foreach ($feeds as $feed): ?>
+            
                 <div class="panel">
                     <div class="panel-body">
                         <div style="height:150px; background:#ccc">
-
+							<iframe
+							src="<?= h($feed->url); ?>"
+							height="150" width="100%"></iframe>
                         </div>
                     </div>
                 </div>
-
-                <div class="panel">
-                    <div class="panel-body">
-                        <div style="height:150px; background:#ccc">
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel">
-                    <div class="panel-body">
-                        <div style="height:150px; background:#ccc">
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel">
-                    <div class="panel-body">
-                        <div style="height:150px; background:#ccc">
-
-                        </div>
-                    </div>
-                </div>
+           <?php endforeach; ?>
 
 
             </section>

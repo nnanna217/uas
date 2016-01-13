@@ -2,6 +2,8 @@
 namespace App\Controller;
 
 use Cake\Event\Event;
+use Cake\ORM\TableRegistry;
+
 class DashboardController extends AppController{
 	
 // 	public $this->layout = "dashboard";
@@ -22,6 +24,12 @@ class DashboardController extends AppController{
 
     public function dashboard(){
         $this->viewBuilder()->layout('default');
+        $this->Feeds = TableRegistry::get('Feeds');
+        $feeds = $this->Feeds->find('all');
+//         debug($feeds);
+//         pr($feeds);exit;
+       
+        $this->set('feeds', $feeds);
     }
 	
 	public function dashboard2(){
