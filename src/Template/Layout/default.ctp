@@ -36,7 +36,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 </head>
-<<<<<<< HEAD
 <body>
     <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -57,7 +56,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
   </div><!-- /.container-fluid -->
 </nav>
     <?= $this->Flash->render() ?>
-    <section class="container clearfix">
+    <section class="container-fluid">
 <body class="secure_bg">
         <?= $this->fetch('content') ?>
 

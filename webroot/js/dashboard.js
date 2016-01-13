@@ -3,13 +3,7 @@
  */
 var Dashboard = {
     CONSTANTS: {
-        feeds: [
-            "http://aassd.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity",
-            "http://aassd.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity",
-            "http://aassd.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity",
-            "http://aassd.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity",
-            "http://aassd.viewnetcam.com:50000/nphMotionJpeg?Resolution=640x480&Quality=Clarity"
-        ],
+        url: "",
         center: "9.054906,7.1148515",
         zoom: 6,
         size: "1000x1000",
@@ -22,6 +16,20 @@ var Dashboard = {
             Dashboard.CONSTANTS.size,
             Dashboard.CONSTANTS.key
         );
+
+        $('#select-frame').on('change', function(){
+            console.log(this);
+            Dashboard.CONSTANTS.url = this.value;
+            if(Dashboard.CONSTANTS.url == -1){
+                Dashboard.showMap();
+            }
+            else{
+                Dashboard.hideMap();
+                Dashboard.switchFeed();
+            }
+        });
+
+        Dashboard.showMap();
     },
     startStaticMap: function(center, zoom, size, key){
         var url = 'https://maps.googleapis.com/maps/api/staticmap?center='
@@ -29,8 +37,16 @@ var Dashboard = {
         console.log(url);
         $('#static-map').attr('src', url);
     },
-    switchFeed: function(index){
-
+    showMap: function(){
+        $('#video-feed').hide('slow');
+        $('#static-map').show('slow');
+    },
+    hideMap: function(){
+        $('#static-map').hide('slow');
+        $('#video-feed').show('slow');
+    },
+    switchFeed: function(){
+        $('#video-feed').attr('src', Dashboard.CONSTANTS.url);
     }
 };
 

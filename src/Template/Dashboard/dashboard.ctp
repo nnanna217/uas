@@ -1,6 +1,3 @@
-<style>
-
-</style>
 <div class="">
     <div class="col-md-12">
         <div class="col-md-3">
@@ -11,9 +8,7 @@
                             <h4 class="text-center"><i class="fa fa-lightbulb-o"></i> HEAT MAP</h4>
 
                             <div class="form-group label-floating">
-
                                 <input type="email" class="form-control" id="i2" placeholder="placeholder attribute">
-
                             </div>
                         </div>
                         <div style="margin-top:30px">
@@ -51,22 +46,21 @@
                             <section>
                                 <div class="form-group">
                                     <label for="sel1">Select location:</label>
-                                    <select class="form-control" id="sell">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
+                                    <select class="form-control" id="select-frame">
+                                        <option value="-1">Map View</option>
+                                        <option value="https://www.youtube.com/embed/fywfkFSRHEM">Lagos</option>
+                                        <option value="https://www.youtube.com/embed/fywfkFSRHEM">Port Harcourt</option>
+                                        <option value="https://www.youtube.com/embed/fywfkFSRHEM">Abuja</option>
+                                        <option value="https://www.youtube.com/embed/fywfkFSRHEM">Kano</option>
                                     </select>
                                 </div>
                             </section>
 
                             <section>
-
-
                                 <div class="form-group">
                                     <label for="sel1"></label>
                                     <select class="form-control" id="sell">
-                                        <option>UAV-098</option>
+                                        <option>1</option>
                                         <option>2</option>
                                         <option>3</option>
                                         <option>4</option>
@@ -111,30 +105,23 @@
         </div>
         <div class="col-md-6">
             <section>
-                <img width="100%" src="" id="static-map">
-                <iframe class="hidden" width="100%" height="100%" src=""></iframe>
+                <img style="width: 95%; display: block; margin: auto" src="" id="static-map">
+                <iframe style="width: 95%; margin: auto; display: block; height: 550px" id="video-feed" src=""></iframe>
             </section>
         </div>
         
         <div class="col-md-3">
             <section>
-                
-            
-            
             <?php foreach ($feeds as $feed): ?>
-            
                 <div class="panel">
                     <div class="panel-body">
-                        <div style="height:150px; background:#ccc">
-							<iframe
-							src="<?= h($feed->url); ?>"
+                        <div style="background:#ccc">
+							<iframe src="<?= h($feed->url); ?>"
 							height="150" width="100%"></iframe>
                         </div>
                     </div>
                 </div>
            <?php endforeach; ?>
-
-
             </section>
         </div>
     </div>
