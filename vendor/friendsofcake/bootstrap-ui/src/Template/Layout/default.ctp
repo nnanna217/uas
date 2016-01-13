@@ -71,7 +71,7 @@ $html5Shim =
 <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 <![endif]-->
 HTML;
-$this->prepend('css', $this->Html->css(['bootstrap/bootstrap']));
+$this->prepend('css', $this->Html->css(['bootstrap/bootstrap','https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css']));
 $this->append('css', $html5Shim);
 
 $this->prepend('script', $this->Html->script(['jquery/jquery', 'bootstrap/bootstrap']));
@@ -82,6 +82,50 @@ $this->prepend('script', $this->Html->script(['jquery/jquery', 'bootstrap/bootst
 <?= $this->fetch('html') ?>
 
     <head>
+    
+    <style>
+<!--
+.form-bg{
+    background-color:#fff;
+    height: 400px;
+}
+.header{
+    padding: 1em;
+
+    background-color:#2EA7EB;
+    /*border-bottom-left-radius:100%;
+     border-bottom-right-radius:100%;*/
+   
+  
+}
+.form-x{
+  /*padding-left:20px;*/
+   padding:2em 4em;
+}
+
+ .icon-user{
+    display:block;
+   margin: 0 0 0 40%;
+   text-align:center;
+    width: 70px;
+    height:70px;
+    line-height:70px;
+    vertical-align:middle;   
+    font-size:50px;
+}
+ .set-icon{
+    border-radius:50px;
+}
+ .set-icon:hover{
+     border-radius:1%;
+ }
+ .bg-color-grey{
+    background-color:#cccccc;
+    color:#fff;
+}
+
+-->
+</style>
 
         <?= $this->Html->charset() ?>
 

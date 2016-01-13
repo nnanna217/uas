@@ -1,6 +1,8 @@
+
+
 <div class="col-md-6 col-md-offset-3">
         <div class="form-bg">
-        <section class="header"> <h4 class="text-center" style="font-size:4em; color:#fff"><span class="icon-user bg-color-grey set-icon flat "><i class="fa fa-user"></i></span></h4></section>
+        <section class="header"> <h4 class="text-center" style="font-size:4em; color:#fff"><span class="icon-user bg-color-grey set-icon flat "><i class="fa fa-cog"></i></span></h4></section>
         <section id="loginForm" class="form-x">
          
                 <div class="form-group">
