@@ -2,17 +2,18 @@
     <div class="col-md-12">
         <div class="col-md-3">
             <section>
-                <div class="">
-                    <div class="panel-body" style="background:#808080;color:#fff">
-                        <div>
-                            <h4 class="text-center"><i class="fa fa-lightbulb-o"></i> HEAT MAP</h4>
+                <div class="" >
+                    <div class="" style="color:#fff">
+                        <div class="heat" style="background:#808080; padding: 10px;border-top: 10px solid #fff">
+                            <i class="fa fa-users ic-bg"></i>
+
+                            <h5 class="text-center"><i class="fa fa-lightbulb-o"></i> HEAT MAP</h5>
 
                             <div class="form-group label-floating">
-                                <input type="email" class="form-control" id="i2" placeholder="placeholder attribute">
                             </div>
-                        </div>
+
                         <div style="margin-top:30px">
-                            <h4><i class="fa fa-user"></i> INCIDENCE REPORT</h4>
+                            <h5 class="text-center"><i class="fa fa-user"></i> INCIDENCE REPORT</h5>
                             <section>
                                 <div class="progress no-rounded progress-sm">
                                     <div class="progress-bar progress-bar-black" role="progressbar" aria-valuenow="80"
@@ -42,7 +43,7 @@
                         </div>
                         <div class="" style="margin-top:30px">
 
-                            <h4 class="text-center"><i class="fa fa-bars"></i> DRILL DOWN</h4>
+                            <h5 class="text-center"><i class="fa fa-bars"></i> DRILL DOWN</h5>
                             <section>
                                 <div class="form-group">
                                     <label for="sel1">Select location:</label>
@@ -56,47 +57,32 @@
                                 </div>
                             </section>
 
-                            <section>
-                                <div class="form-group">
-                                    <label for="sel1"></label>
-                                    <select class="form-control" id="sell">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                    </select>
-                                </div>
-                            </section>
-
-                            <section>
 
 
-                                <div class="form-group">
+                        </div></div>
 
-                                    <select class="form-control" id="sell">
-                                        <option>AQ-532-KJA</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                    </select>
-                                </div>
+                        <div class="info" style="margin-top:30px;  background:#029644">
+                              <span class="icon_boxed bg-success set_m_icon flat" style="background:#029644">
+                                            <i class="fa fa-dashboard"></i>
+                                        </span>
+                            <i class="fa fa-users icon-bg"></i>
 
-                            </section>
 
-                        </div>
-
-                        <div class="" style="margin-top:30px">
-                            <h4 class="text-center"><i class="fa fa-database"></i> ICONS</h4>
-
-                            <div class="row" style="color:#000">
-                                <div class="col-md-2 col-md-offset-1"><i class="fa fa-user-plus fa-3x"></i></div>
-                                <div class="col-md-2 col-md-offset-1"><i class="fa fa-envelope-o fa-3x"></i></div>
-                                <div class="col-md-2 col-md-offset-1"><i class="fa fa-ambulance fa-3x"></i></div>
+                            <div class="row" style="padding-top:50px;color:#fff">
+                                <div class="col-md-10">
+                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-send fa-2x"></i><h6 style="font-size: :9px">UAV</h6></div>
+                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-wifi fa-2x"></i><h6  style="font-size: :6px">UAV Station</h6></div>
+</div>
                             </div>
-                            <div class="row" style="margin-top:30px;color:#000">
-                                <div class="col-md-2 col-md-offset-1"><i class="fa fa-bank fa-3x"></i></div>
-                                <div class="col-md-2 col-md-offset-1"><i class="fa fa-camera fa-3x"></i></div>
-                                <div class="col-md-2 col-md-offset-1"><i class="fa fa-dashboard fa-3x"></i></div>
+                            <div class="progress no-rounded progress-xs">
+                                <div class="progress-bar progress-bar-greenbg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top:30px;color:#fff">
+                                <div class="col-md-10">
+                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-database fa-2x"></i><h6 style="font-size: :9px">Critical Infrastructure</h6></div>
+                                <div class="col-md-5 col-md-offset-1 text-center"><i class="fa fa-warning fa-2x"></i><h6  style="font-size: :6px">Reported Situation</h6></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -104,14 +90,22 @@
             </section>
         </div>
         <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12">
             <section>
-                <img style="width: 95%; display: block; margin: auto" src="" id="static-map">
+                <img style="width: 100%; display: block; margin: auto" src="../img/heat.png" height="700" id="static-map" class="">
                 <iframe style="width: 95%; margin: auto; display: block; height: 550px" id="video-feed" src=""></iframe>
             </section>
+            </div></div>
+            <div class="row" style="margin-top: 20px">
+                <div class="col-md-12">
+                    <img style="width:100% ;" src="../img/heat-bg1.jpg" class="img-responsive"/>
+                </div>
+            </div>
         </div>
         
         <div class="col-md-3">
-            <section>
+            <section id="feeds">
             <?php foreach ($feeds as $feed): ?>
                 <div class="panel">
                     <div class="panel-body">
@@ -119,6 +113,7 @@
 							<iframe src="<?= h($feed->url); ?>"
 							height="150" width="100%"></iframe>
                         </div>
+                        <h5><?= h($feed->location);?></h4>
                     </div>
                 </div>
            <?php endforeach; ?>
