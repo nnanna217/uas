@@ -97,7 +97,7 @@
         </div>
         
         <div class="col-md-3">
-            <section>
+            <section id="feeds">
             <?php foreach ($feeds as $feed): ?>
                 <div class="panel">
                     <div class="panel-body">

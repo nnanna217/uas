@@ -20,7 +20,7 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+   /* max-width: 280px;*/
 }
 .progress-xs {
     height: 8px;
@@ -91,7 +91,7 @@ textarea {
     position: absolute;
     right: 43%;
     color:#ffffff;
-    bottom:22%;
+    bottom:24%;
     width: 70px;
     height:70px;
     line-height:70px;
@@ -106,4 +106,9 @@ textarea {
     border-radius:50px;
     border: 1px solid #ffffff;
 
+}
+
+#feeds{
+    max-height: 700px;
+    overflow-y: auto;
 }
