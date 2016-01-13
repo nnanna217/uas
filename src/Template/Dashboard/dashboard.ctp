@@ -59,22 +59,6 @@
                             </div>
                             <div class="" style="margin-top:30px">
 
-                                <h5 class="text-center"><i class="fa fa-bars"></i> DRILL DOWN</h5>
-                                <section>
-                                    <div class="form-group">
-                                        <label for="sel1">Select location:</label>
-                                        <select class="form-control" id="select-frame">
-                                            <option value="-1">Map View</option>
-                                            <option value="https://www.youtube.com/embed/fywfkFSRHEM">Lagos</option>
-                                            <option value="https://www.youtube.com/embed/fywfkFSRHEM">Port Harcourt</option>
-                                            <option value="https://www.youtube.com/embed/fywfkFSRHEM">Abuja</option>
-                                            <option value="https://www.youtube.com/embed/fywfkFSRHEM">Kano</option>
-                                        </select>
-                                    </div>
-                                </section>
-
-
-
                             </div></div>
 
                         <!--
@@ -122,6 +106,21 @@
             </div>
         </div>
         <div class="col-md-3">
+        
+         <h5 class="text-center"><i class="fa fa-bars"></i> DRILL DOWN</h5>
+                                <section>
+                                    <div class="form-group">
+                                        <label for="sel1">Select location:</label>
+                                        <select class="form-control" id="select-frame">
+                                            <option value="-1">Map View</option>
+                                            <option value="https://www.youtube.com/embed/fywfkFSRHEM">Lagos</option>
+                                            <option value="https://www.youtube.com/embed/fywfkFSRHEM">Port Harcourt</option>
+                                            <option value="https://www.youtube.com/embed/fywfkFSRHEM">Abuja</option>
+                                            <option value="https://www.youtube.com/embed/fywfkFSRHEM">Kano</option>
+                                        </select>
+                                    </div>
+                                </section>
+                                
             <section id="feeds">
                 <?php foreach ($feeds as $feed): ?>
                     <div class="panel">
