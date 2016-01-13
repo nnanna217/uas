@@ -885,4 +885,5 @@
     <!-- Custom Theme JavaScript -->
 <!--     <script src="../dist/js/sb-admin-2.js"></script> -->
 
-    <?= $this->Html->script(['jquery/jquery.min.js','metisMenu/dist/metisMenu.min.js','raphael/raphael-min.js','morrisjs/morris.min.js','morris-data.js','sb-admin-2.js']);?>
+    <?= $this->Html->script(['jquery/jquery.min.js', 'metisMenu/dist/metisMenu.min.js','raphael/raphael-min.js','morrisjs/morris.min.js','morris-data.js','sb-admin-2.js']);?>
+    
