@@ -893,5 +893,5 @@
 
     <!-- Custom Theme JavaScript -->
 <!--     <script src="../dist/js/sb-admin-2.js"></script> -->
-    
+
     <?= $this->Html->script(['metisMenu.min.js','raphael-min.js','morris.min.js','sb-admin-2.js'])?>
