@@ -7,11 +7,11 @@ use Cake\ORM\TableRegistry;
 class DashboardController extends AppController{
 	
 // 	public $this->layout = "dashboard";
-	public function beforeFilter(Event $event)
-	{
-		parent::beforeFilter($event);
-		$this->Auth->allow(['index','dashboard1','dashboard','dashboard2','revenue']);
-	}
+// 	public function beforeFilter(Event $event)
+// 	{
+// 		parent::beforeFilter($event);
+// 		$this->Auth->allow(['index','dashboard1','dashboard','dashboard2','revenue']);
+// 	}
 	
 	public function index() {
 		$this->viewBuilder()->layout('dashboard');

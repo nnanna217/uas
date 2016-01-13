@@ -877,15 +877,6 @@
     </div>
     <!-- /#wrapper -->
 
-    <!-- jQuery -->
-<!--     <script src="../bower_components/jquery/dist/jquery.min.js"></script> -->
-
-    <!-- Bootstrap Core JavaScript -->
-<!--     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
-
-    <!-- Metis Menu Plugin JavaScript -->
-<!--     <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script> -->
-
     <!-- Morris Charts JavaScript -->
 <!--     <script src="../bower_components/raphael/raphael-min.js"></script> -->
 <!--     <script src="../bower_components/morrisjs/morris.min.js"></script> -->
@@ -894,4 +885,4 @@
     <!-- Custom Theme JavaScript -->
 <!--     <script src="../dist/js/sb-admin-2.js"></script> -->
 
-    <?= $this->Html->script(['metisMenu.min.js','raphael-min.js','morris.min.js','sb-admin-2.js'])?>
+    <?= $this->Html->script(['jquery/jquery.min.js','metisMenu/dist/metisMenu.min.js','raphael/raphael-min.js','morrisjs/morris.min.js','morris-data.js','sb-admin-2.js']);?>

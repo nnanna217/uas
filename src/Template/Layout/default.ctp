@@ -21,7 +21,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Secure Tech Surveillance
+        NSA Surveillance
     </title>
 
 
@@ -73,7 +73,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <?= $this->fetch('content') ?>
 
     <footer>
-        <?= $this->Html->script(['jquery.js','bootstrap/bootstrap.js', 'dashboard.js']); ?>
+        <?= $this->Html->script(['bootstrap/bootstrap.js', 'dashboard.js']); ?>
     </footer>
 </body>
 </html>

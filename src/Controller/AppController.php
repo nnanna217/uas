@@ -43,17 +43,17 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
-        $this->loadComponent('Auth', [
-        		'loginRedirect' => [
-        				'controller' => 'Dashboard',
-        				'action' => 'dashboard'
-        		],
-        		'logoutRedirect' => [
-        				'controller' => 'Users',
-        				'action' => 'login',
-        				'home'
-        		]
-        ]);
+//         $this->loadComponent('Auth', [
+//         		'loginRedirect' => [
+//         				'controller' => 'Dashboard',
+//         				'action' => 'dashboard'
+//         		],
+//         		'logoutRedirect' => [
+//         				'controller' => 'Users',
+//         				'action' => 'login',
+//         				'home'
+//         		]
+//         ]);
     }
 
     /**
@@ -71,8 +71,8 @@ class AppController extends Controller
         }
     }
     
-    public function beforeFilter(Event $event)
-    {
-    	$this->Auth->allow(['index', 'view', 'display']);
-    }
+//     public function beforeFilter(Event $event)
+//     {
+//     	$this->Auth->allow(['index', 'view', 'display']);
+//     }
 }
