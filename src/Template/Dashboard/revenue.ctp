@@ -52,7 +52,7 @@
 <div id="page-wrapper">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Summary</h1>
+            <h1 class="page-header">Revenue Summary</h1>
         </div>
         <!-- /.col-lg-12 -->
     </div>
