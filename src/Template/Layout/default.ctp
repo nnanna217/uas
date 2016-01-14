@@ -28,18 +28,21 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <?= $this->Html->meta('icon') ?>
 
-    <?= $this->Html->css(['bootstrap/bootstrap.min.css','Site.css']) ?>
+    <?= $this->Html->css(['bootstrap/bootstrap.min.css','Site.css','metisMenu/dist/metisMenu.min.css',
+    		'timeline.css','sb-admin-2.css','morrisjs/morris.css']) ?>
      <!-- MetisMenu CSS -->
-    <link href="../css/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+<!--     <link href="../css/metisMenu/dist/metisMenu.min.css" rel="stylesheet"> -->
 
     <!-- Timeline CSS -->
-    <link href="../css/timeline.css" rel="stylesheet">
+<!--     <link href="../css/timeline.css" rel="stylesheet"> -->
 
     <!-- Custom CSS -->
-    <link href="../css/sb-admin-2.css" rel="stylesheet">
+<!--     <link href="../css/sb-admin-2.css" rel="stylesheet"> -->
 
     <!-- Morris Charts CSS -->
-    <link href="../css/morrisjs/morris.css" rel="stylesheet">
+<!--     <link href="../css/morrisjs/morris.css" rel="stylesheet"> -->
+
+<?= $this->Html->script(['jquery/jquery.min.js']);?>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 

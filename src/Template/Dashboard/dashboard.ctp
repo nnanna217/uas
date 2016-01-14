@@ -95,19 +95,21 @@
             <div class="row">
                 <div class="col-md-12">
                     <section>
-                        <img style="width: 100%; display: block; margin: auto" src="../img/heat.png"" id="static-map" class="">
+                        <img style="width: 100%; display: block; margin: auto" src="img/heat.png"" id="static-map" class="">
+                        <div>
                         <iframe style="width: 95%; margin: auto; display: block; height: 550px" id="video-feed" src=""></iframe>
+                        <p class="text-primary text-center">2016-01-14</p>
+                        </div>
                     </section>
                 </div></div>
             <div class="row" style="margin-top: 20px">
                 <div class="col-md-12">
-                    <img style="width:100% ;" src="../img/heat-bg1.jpg" class="img-responsive"/>
+                    <img style="width:100% ;" src="img/heat-bg1.jpg" class="img-responsive"/>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
         
-         <h5 class="text-center"><i class="fa fa-bars"></i> DRILL DOWN</h5>
                                 <section>
                                     <div class="form-group">
                                         <label for="sel1">Select location:</label>
