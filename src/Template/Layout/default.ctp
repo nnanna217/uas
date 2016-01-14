@@ -29,21 +29,21 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->meta('icon') ?>
 
     <?= $this->Html->css(['bootstrap/bootstrap.min.css','Site.css','metisMenu/dist/metisMenu.min.css',
-    		'timeline.css','sb-admin-2.css','morrisjs/morris.css']) ?>
-     <!-- MetisMenu CSS -->
-<!--     <link href="../css/metisMenu/dist/metisMenu.min.css" rel="stylesheet"> -->
+        'timeline.css','sb-admin-2.css','morrisjs/morris.css']) ?>
+    <!-- MetisMenu CSS -->
+    <!--     <link href="../css/metisMenu/dist/metisMenu.min.css" rel="stylesheet"> -->
 
     <!-- Timeline CSS -->
-<!--     <link href="../css/timeline.css" rel="stylesheet"> -->
+    <!--     <link href="../css/timeline.css" rel="stylesheet"> -->
 
     <!-- Custom CSS -->
-<!--     <link href="../css/sb-admin-2.css" rel="stylesheet"> -->
+    <!--     <link href="../css/sb-admin-2.css" rel="stylesheet"> -->
 
     <!-- Morris Charts CSS -->
-<!--     <link href="../css/morrisjs/morris.css" rel="stylesheet"> -->
+    <!--     <link href="../css/morrisjs/morris.css" rel="stylesheet"> -->
 
-<?= $this->Html->script(['jquery/jquery.min.js']);?>
-    
+    <?= $this->Html->script(['jquery/jquery.min.js']);?>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <?= $this->fetch('meta') ?>
@@ -51,17 +51,17 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->fetch('script') ?>
 </head>
 <body>
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-        <a style="" class="navbar-brand" href="/"> NSA Surveillance</a>
-    </div>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a style="" class="navbar-brand" href="#"> NSA Surveillance</a>
+        </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-      <li ></li>
+      <li ><?= $this->Html->link(__('Surveillance'), ['controller'=>'dashboard','action' => 'dashboard']) ?></li>
           <li ><?= $this->Html->link(__('Sentiment Analysis'), ['controller'=>'dashboard','action' => 'dashboard2']) ?></li>
           <li ><?= $this->Html->link(__('Revenue'), ['controller'=>'dashboard','action' => 'revenue']) ?></li>
         <li ><?= $this->Html->link(__('New Feed'), ['controller'=>'feeds','action' => 'add']) ?></li>
@@ -70,13 +70,13 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-    <?= $this->Flash->render() ?>
-    <section class="container-fluid">
-<body class="secure_bg">
-        <?= $this->fetch('content') ?>
+<?= $this->Flash->render() ?>
+<section class="container-fluid">
+    <body class="secure_bg">
+    <?= $this->fetch('content') ?>
 
     <footer>
         <?= $this->Html->script(['bootstrap/bootstrap.js', 'dashboard.js']); ?>
     </footer>
-</body>
+    </body>
 </html>

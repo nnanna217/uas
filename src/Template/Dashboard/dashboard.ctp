@@ -4,7 +4,7 @@
             <section>
                 <div class="" >
                     <div class="" style="color:#fff">
-                        <div class="heat" style="background:#808080; padding: 10px;border-top: 10px solid #fff">
+                        <div class="heat" style="background:#808080; padding: 10px;">
                             <i class="fa fa-users ic-bg"></i>
 
                             <h5 class="text-center"><i class="fa fa-lightbulb-o" style="font-size:17px"></i> <b>HEAT MAP</b></h5>
