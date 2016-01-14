@@ -4,42 +4,20 @@
     <div class="navbar-default sidebar" role="navigation" style="margin-top: 0;">
         <div class="sidebar-nav navbar-collapse">
             <ul class="nav" id="side-menu">
-                <li class="sidebar-search">
-                    <div class="input-group custom-search-form">
-                        <input type="text" class="form-control" placeholder="Search...">
-                                <span class="input-group-btn">
-                                <button class="btn btn-default" type="button">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </span>
-                    </div>
-                    <!-- /input-group -->
+                <li>
+                    <a><i class="fa fa-bank fa-fw"></i> Spam : 2564</a>
                 </li>
                 <li>
-                    <a><i class="fa fa-bank fa-fw"></i> Banks</a>
+                    <a><i class="fa fa-bar-chart-o fa-fw"></i>Malware : 276</a>
                 </li>
                 <li>
-                    <a><i class="fa fa-bar-chart-o fa-fw"></i> Capital Markets</a>
+                    <a><i class="fa fa-money fa-fw"></i> Hackers : 1587 </a>
                 </li>
                 <li>
-                    <a><i class="fa fa-money fa-fw"></i> Insurance</a>
+                    <a><i class="fa fa-money fa-fw"></i> Phishing : 984 </a>
                 </li>
                 <li>
-                    <a><i class="fa fa-phone fa-fw"></i> Telecommunications</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-pagelines fa-fw"></i> Summary</a>
-                    <ul class="nav nav-second-level">
-                        <li>
-                            <a><span class="bg-warning">&nbsp; &nbsp;</span>&nbsp; Finance</a>
-                        </li>
-                        <li>
-                            <a><span class="bg-success">&nbsp; &nbsp;</span>&nbsp; Capital Markets</a>
-                        </li>
-                        <li>
-                            <a><span class="bg-danger">&nbsp; &nbsp;</span>&nbsp; Insurance</a>
-                        </li>
-                    </ul>
+                    <a href="#"><i class="fa fa-pagelines fa-fw"></i> Data Leak : 9634</a>
                     <!-- /.nav-second-level -->
                 </li>
             </ul>
@@ -52,102 +30,12 @@
 <div id="page-wrapper">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Revenue Summary (₦)</h1>
+            <h1 class="page-header">Financial Intelligence</h1>
         </div>
         <!-- /.col-lg-12 -->
     </div>
     <!-- /.row -->
-    <div class="row">
-        <div class="col-lg-3 col-md-6">
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <i class="fa fa-briefcase fa-5x"></i>
-                        </div>
-                        <div class="col-xs-9 text-right">
-                            <div class="huge">150B</div>
-                            <div>Banks!</div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#">
-                    <div class="panel-footer">
-                        <span class="pull-left">View Details</span>
-                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                        <div class="clearfix"></div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="panel panel-green">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <i class="fa fa-bar-chart-o fa-5x"></i>
-                        </div>
-                        <div class="col-xs-9 text-right">
-                            <div class="huge">530M</div>
-                            <div>Capital Markets!</div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#">
-                    <div class="panel-footer">
-                        <span class="pull-left">View Details</span>
-                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                        <div class="clearfix"></div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="panel panel-yellow">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <i class="fa fa-money fa-5x"></i>
-                        </div>
-                        <div class="col-xs-9 text-right">
-                            <div class="huge">44M</div>
-                            <div>Insurance!</div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#">
-                    <div class="panel-footer">
-                        <span class="pull-left">View Details</span>
-                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                        <div class="clearfix"></div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="panel panel-red">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <i class="fa fa-phone-square fa-5x"></i>
-                        </div>
-                        <div class="col-xs-9 text-right">
-                            <div class="huge">65B</div>
-                            <div>Telecommunications!</div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#">
-                    <div class="panel-footer">
-                        <span class="pull-left">View Details</span>
-                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                        <div class="clearfix"></div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    
+
     <div class="panel panel-default">
                         <div class="panel-heading">
                             <i class="fa fa-bar-chart-o fa-fw"></i> Bar Chart Example
