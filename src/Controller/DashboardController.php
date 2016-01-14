@@ -37,4 +37,8 @@ class DashboardController extends AppController{
 	public function revenue(){
 		$this->viewBuilder()->layout('default');
 	}
+	
+	public function money(){
+		$this->viewBuilder()->layout('default');
+	}
 }

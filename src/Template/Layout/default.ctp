@@ -55,14 +55,15 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <a style="" class="navbar-brand" href="/"> NSA Surveillance</a>
+            <div class="huge"><a style="" class="navbar-brand" href="/"><b> NSA DASHBOARD</b></a></div>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
                 <li ><?= $this->Html->link(__('Sentiment Analysis'), ['controller'=>'dashboard','action' => 'dashboard2']) ?></li>
-                <li ><?= $this->Html->link(__('Revenue'), ['controller'=>'dashboard','action' => 'revenue']) ?></li>
+                <li ><?= $this->Html->link(__('Revenue Assurance'), ['controller'=>'dashboard','action' => 'revenue']) ?></li>
+                <li ><?= $this->Html->link(__('Money Laundering'), ['controller'=>'dashboard','action' => 'money']) ?></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li ><?= $this->Html->link(__('New Feed'), ['controller'=>'feeds','action' => 'add']) ?></li>
