@@ -7,13 +7,13 @@
                         <div class="heat" style="background:#808080; padding: 10px;">
                             <i class="fa fa-users ic-bg"></i>
 
-                            <h5 class="text-center"><i class="fa fa-lightbulb-o" style="font-size:17px"></i> <b>HEAT MAP</b></h5>
+                            <h5 class="text-center"><i class="fa fa-lightbulb-o" style="font-size:17px"></i> <b>INCIDENCE REPORT</b></h5>
 
                             <div class="form-group label-floating">
                             </div>
 
                             <div style="margin-top:30px">
-                                <h5 class="text-center"><i class="fa fa-user"></i> <b>INCIDENCE REPORT</b></h5>
+<!--                                 <h5 class="text-center"><i class="fa fa-user"></i> <b>INCIDENCE REPORT</b></h5> -->
                                 <section>
                                     <div class="progress no-rounded progress-sm">
                                         <div class="progress-bar progress-bar-blue" role="progressbar" aria-valuenow="80"
