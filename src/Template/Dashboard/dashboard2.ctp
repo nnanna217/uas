@@ -14,7 +14,13 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h2 class="panel-title">Insights</h2>
-            </div>
+				<p><small>Boko Haram Threat Highest threat Region: North East Most affected
+					states: Yobe, Borno, Adamawa Support of Extremist activities in
+					region: 22.7% Government sponsored peace coverage in region: 33.9%
+					Least reached LGA in Region: Bora LGA Support for Military
+					activities: 78.3%</small></p>
+
+			</div>
             <div class="panel-body">
 
             </div>

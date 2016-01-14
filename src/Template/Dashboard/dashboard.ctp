@@ -7,20 +7,20 @@
                         <div class="heat" style="background:#808080; padding: 10px;border-top: 10px solid #fff">
                             <i class="fa fa-users ic-bg"></i>
 
-                            <h5 class="text-center"><i class="fa fa-lightbulb-o"></i> HEAT MAP</h5>
+                            <h5 class="text-center"><i class="fa fa-lightbulb-o" style="font-size:17px"></i> <b>HEAT MAP</b></h5>
 
                             <div class="form-group label-floating">
                             </div>
 
                             <div style="margin-top:30px">
-                                <h5 class="text-center"><i class="fa fa-user"></i> INCIDENCE REPORT</h5>
+                                <h5 class="text-center"><i class="fa fa-user"></i> <b>INCIDENCE REPORT</b></h5>
                                 <section>
                                     <div class="progress no-rounded progress-sm">
-                                        <div class="progress-bar progress-bar-black" role="progressbar" aria-valuenow="80"
+                                        <div class="progress-bar progress-bar-blue" role="progressbar" aria-valuenow="80"
                                              aria-valuemin="0" aria-valuemax="100" style="width: 100%">
                                         </div>
                                     </div>
-                                    <span> 345 All Events</span>
+                                    <span><h4><b>345</b></h4> Active Events</span>
                                 </section>
 
                                 <section style="margin-top:30px">
@@ -29,32 +29,41 @@
                                              aria-valuemin="0" aria-valuemax="100" style="width: 80%">
                                         </div>
                                     </div>
-                                    <span>150 Border Smuggling</span>
+                                    <span><h4><b>150</b></h4> Border Smuggling</span>
                                 </section>
 
                                 <section style="margin-top:30px">
                                     <div class="progress no-rounded progress-sm">
-                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80"
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
                                              aria-valuemin="0" aria-valuemax="100" style="width: 50%">
                                         </div>
                                     </div>
-                                    <span>135 Kidnapping</span>
+                                    <span><h4><b>103</b></h4> Kidnapping</span>
                                 </section>
                                 <section style="margin-top:30px">
                                     <div class="progress no-rounded progress-sm">
-                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="25"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                                         </div>
                                     </div>
-                                    <span>135 Robbery Attacks</span>
+                                    <span><h4><b>5013</b></h4> Terrorist  Attacks</span>
                                 </section>
                                 <section style="margin-top:30px">
                                     <div class="progress no-rounded progress-sm">
-                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80"
-                                             aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 75%">
                                         </div>
                                     </div>
-                                    <span>135 Mistaken Identity</span>
+                                    <span><h4><b>5473</b></h4> Cyber Threat</span>
+                                </section>
+                                
+                                <section style="margin-top:30px">
+                                    <div class="progress no-rounded progress-sm">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                        </div>
+                                    </div>
+                                    <span><h4><b>12070</b></h4> Infrastructure Breach</span>
                                 </section>
                             </div>
                             <div class="" style="margin-top:30px">
@@ -95,7 +104,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <section>
-                        <img style="width: 100%; display: block; margin: auto" src="img/heat.png"" id="static-map" class="">
+                        <img style="width: 100%; display: block; margin: auto" src="img/monitor.jpg"" id="static-map" class="">
                         <div>
                         <iframe style="width: 95%; margin: auto; display: block; height: 550px" id="video-feed" src=""></iframe>
                         <p class="text-primary text-center">2016-01-14</p>

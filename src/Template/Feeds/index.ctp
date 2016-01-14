@@ -42,7 +42,7 @@
 				<td><?= h($feed->city) ?></td>
 				<td><?= h($feed->url) ?></td>
 				<td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $feed->id])?>
+                    
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $feed->id])?>
                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $feed->id], ['confirm' => __('Are you sure you want to delete # {0}?', $feed->id)])?>
                 </td>

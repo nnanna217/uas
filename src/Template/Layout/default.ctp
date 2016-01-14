@@ -55,7 +55,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-        <a style="margin-top: -5px" class="navbar-brand" href="#"> NSA Surveillance</a>
+        <a style="" class="navbar-brand" href="#"> NSA Surveillance</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -65,8 +65,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
           <li ><?= $this->Html->link(__('Sentiment Analysis'), ['controller'=>'dashboard','action' => 'dashboard2']) ?></li>
           <li ><?= $this->Html->link(__('Revenue'), ['controller'=>'dashboard','action' => 'revenue']) ?></li>
         <li ><?= $this->Html->link(__('New Feed'), ['controller'=>'feeds','action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('Drones'), ['controller'=>'feeds','action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('Add Users'), ['controller'=>'users','action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('All Drones'), ['controller'=>'feeds','action' => 'index']) ?></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
