@@ -208,63 +208,52 @@
     </div>
 </div>
 
-<div class="well">
-    <div>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            <p class="text-uppercase">Flagged Accounts</p>
-                        </div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-briefcase fa-5x"></i>
                     </div>
-                    <!-- /.panel-heading -->
-                    <div class="panel-body">
-                        <p>Total Value: 700 Bn</p>
-                        <div id="morris-donut-chart-3"></div>
+                    <div class="col-xs-9 text-right">
+                        <div class="small"><b>Flagged Accounts</b></div>
+                        <div class="huge">550BN</div>
                     </div>
-                    <!-- /.panel-body -->
                 </div>
-                <!-- /.panel -->
             </div>
-            <!-- /.col-lg-6 -->
-            <div class="col-lg-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            <p class="text-uppercase">PEP</p>
-                        </div>
-                    </div>
-                    <!-- /.panel-heading -->
-                    <div class="panel-body">
-                        <div id="morris-donut-chart-4"></div>
-                    </div>
-                    <!-- /.panel-body -->
-                </div>
-                <!-- /.panel -->
-            </div>
-            <!-- /.col-lg-6 -->
-            <div class="col-lg-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <div class="panel-title">
-                            <p class="text-uppercase">T. F.</p>
-                        </div>
-                    </div>
-                    <!-- /.panel-heading -->
-                    <div class="panel-body">
-                        <div id="morris-donut-chart-5"></div>
-                    </div>
-                    <!-- /.panel-body -->
-                </div>
-                <!-- /.panel -->
-            </div>
-            <!-- /.row -->
         </div>
     </div>
-<!--</div>-->
-<!-- /#page-wrapper -->
-
+    <div class="col-md-4">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-users fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="small"><b>Political Exposed Persons</b></div>
+                        <div class="huge">100 BN</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-bomb fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="small"><b>Suspected Terrorist Funding</b></div>
+                        <div class="huge">87 BN</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- /#wrapper -->
 
