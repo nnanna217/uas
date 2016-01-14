@@ -66,7 +66,6 @@
                             <i class="fa fa-briefcase fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                        <div class="small"><b>YTD</b></div>
                             <div class="huge">150B</div>
                             <div>Banks!</div>
                         </div>
@@ -89,7 +88,6 @@
                             <i class="fa fa-bar-chart-o fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                        <div class="small"><b>YTD</b></div>
                             <div class="huge">530M</div>
                             <div>Capital Markets!</div>
                         </div>
@@ -112,7 +110,6 @@
                             <i class="fa fa-money fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                        <div class="small"><b>YTD</b></div>
                             <div class="huge">44M</div>
                             <div>Insurance!</div>
                         </div>
@@ -135,7 +132,6 @@
                             <i class="fa fa-phone-square fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                        <div class="small"><b>YTD</b></div>
                             <div class="huge">65B</div>
                             <div>Telecommunications!</div>
                         </div>
@@ -151,6 +147,111 @@
             </div>
         </div>
     </div>
+    
+    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bar-chart-o fa-fw"></i> Bar Chart Example
+                            <div class="pull-right">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                        Actions
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right" role="menu">
+                                        <li><a href="#">Action</a>
+                                        </li>
+                                        <li><a href="#">Another action</a>
+                                        </li>
+                                        <li><a href="#">Something else here</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Separated link</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover table-striped">
+                                            <thead>
+                                                <tr>
+                                                    
+                                                    <th>Date</th>
+                                                    <th>Time</th>
+                                                    <th>Details</th>
+                                                    <th>Amount</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>10/21/2013</td>
+                                                    <td>3:29 PM</td>
+                                                    <td>3326</td>
+                                                    <td>$321.33</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/21/2013</td>
+                                                    <td>3:20 PM</td>
+                                                    <td>3325</td>
+                                                    <td>$234.34</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/21/2013</td>
+                                                    <td>3:03 PM</td>
+                                                    <td>3324</td>
+                                                    <td>$724.17</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/21/2013</td>
+                                                    <td>3:00 PM</td>
+                                                    <td>3323</td>
+                                                    <td>$23.71</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/21/2013</td>
+                                                    <td>2:49 PM</td>
+                                                    <td>3322</td>
+                                                    <td>$8345.23</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/21/2013</td>
+                                                    <td>2:23 PM</td>
+                                                    <td>3321</td>
+                                                    <td>$245.12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/21/2013</td>
+                                                    <td>2:15 PM</td>
+                                                    <td>3320</td>
+                                                    <td>$5663.54</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/21/2013</td>
+                                                    <td>2:13 PM</td>
+                                                    <td>3319</td>
+                                                    <td>$943.45</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- /.table-responsive -->
+                                </div>
+                                <!-- /.col-lg-4 (nested) -->
+                                <div class="col-lg-8">
+                                    <div id="morris-bar-chart"></div>
+                                </div>
+                                <!-- /.col-lg-8 (nested) -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+    
     <!-- /.row -->
     <div class="row">
         <div class="col-lg-8">
@@ -163,22 +264,13 @@
                                 Actions
                                 <span class="caret"></span>
                             </button>
-                            <ul class="dropdown-menu pull-right" role="menu">
-                                <li><a href="#">Banks</a>
-                                </li>
-                                <li><a href="#">Insurance</a>
-                                </li>
-                                <li><a href="#">Capital Markets</a>
-                                </li>
-                                <li><a href="#">Telecommunications</a>
-                                </li>
-                            </ul>
+                            
                         </div>
                     </div>
                 </div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">
-                    <div id="morris-area-chart"></div>
+                    <div id="morris-donut-chart"></div>
                 </div>
                 <!-- /.panel-body -->
             </div>
@@ -200,7 +292,8 @@
         <!-- /.col-lg-4 -->
     </div>
     <!-- /.row -->
-</div>
+    
+    </div>
 <!-- /#page-wrapper -->
 
 </div>
