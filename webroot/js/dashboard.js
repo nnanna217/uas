@@ -30,6 +30,13 @@ var Dashboard = {
         });
 
         Dashboard.showMap();
+        var time;
+        var timeString;
+
+        setInterval(function(){
+            timeString = moment().format('MMMM Do YYYY, h:mm:ss a');
+            $('#timer').text(timeString);
+        }, 1000);
     },
     startStaticMap: function(center, zoom, size, key){
         var url = 'https://maps.googleapis.com/maps/api/staticmap?center='
@@ -46,7 +53,7 @@ var Dashboard = {
         $('#video-feed').show('slow');
     },
     switchFeed: function(){
-        $('#video-feed').attr('src', Dashboard.CONSTANTS.url);
+        $('#video-feed iframe').attr('src', Dashboard.CONSTANTS.url);
     }
 };
 

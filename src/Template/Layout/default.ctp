@@ -77,7 +77,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->fetch('content') ?>
 
     <footer>
-        <?= $this->Html->script(['bootstrap/bootstrap.js', 'dashboard.js']); ?>
+        <?= $this->Html->script(['bootstrap/bootstrap.js', 'moment.min.js', 'dashboard.js']); ?>
     </footer>
     </body>
 </html>
