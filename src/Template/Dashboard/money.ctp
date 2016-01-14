@@ -33,9 +33,59 @@
         <h1 class="page-header">Financial Intelligence</h1>
     </div>
     <!-- /.col-lg-12 -->
+    
+    <h3>Money Laundering</h3>
+<div class="row">
+
+    <div class="col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-briefcase fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="small"><b>Flagged Accounts</b></div>
+                        <div class="huge">550BN</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-green">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-users fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="small"><b>Political Exposed Persons</b></div>
+                        <div class="huge">100 BN</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-yellow">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <i class="fa fa-bomb fa-5x"></i>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                        <div class="small"><b>Suspected Terrorist Funding</b></div>
+                        <div class="huge">87 BN</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </div>
 <!-- /.row -->
-
+<h3>Cybercrime Activities</h3>
 <div class="well">
     <div>
         <div class="panel panel-default">
@@ -207,53 +257,7 @@
         <!-- /.row -->
     </div>
 </div>
-<div><h3>Money Laundering</h3></div>
-<div class="row">
-    <div class="col-md-4">
-        <div class="panel panel-primary">
-            <div class="panel-heading">
-                <div class="row">
-                    <div class="col-xs-3">
-                        <i class="fa fa-briefcase fa-5x"></i>
-                    </div>
-                    <div class="col-xs-9 text-right">
-                        <div class="small"><b>Flagged Accounts</b></div>
-                        <div class="huge">550BN</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="panel panel-green">
-            <div class="panel-heading">
-                <div class="row">
-                    <div class="col-xs-3">
-                        <i class="fa fa-users fa-5x"></i>
-                    </div>
-                    <div class="col-xs-9 text-right">
-                        <div class="small"><b>Political Exposed Persons</b></div>
-                        <div class="huge">100 BN</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="panel panel-yellow">
-            <div class="panel-heading">
-                <div class="row">
-                    <div class="col-xs-3">
-                        <i class="fa fa-bomb fa-5x"></i>
-                    </div>
-                    <div class="col-xs-9 text-right">
-                        <div class="small"><b>Suspected Terrorist Funding</b></div>
-                        <div class="huge">87 BN</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </div>
 <!-- /#wrapper -->
 
