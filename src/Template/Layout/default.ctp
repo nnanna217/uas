@@ -63,7 +63,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <ul class="nav navbar-nav navbar-left">
                 <li ><?= $this->Html->link(__('Sentiment Analysis'), ['controller'=>'dashboard','action' => 'dashboard2']) ?></li>
                 <li ><?= $this->Html->link(__('Revenue Assurance'), ['controller'=>'dashboard','action' => 'revenue']) ?></li>
-                <li ><?= $this->Html->link(__('Money Laundering'), ['controller'=>'dashboard','action' => 'money']) ?></li>
+                <li ><?= $this->Html->link(__('Financial Intelligence'), ['controller'=>'dashboard','action' => 'money']) ?></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li ><?= $this->Html->link(__('New Feed'), ['controller'=>'feeds','action' => 'add']) ?></li>
@@ -78,7 +78,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->fetch('content') ?>
 
     <footer>
-        <?= $this->Html->script(['bootstrap/bootstrap.js', 'dashboard.js']); ?>
+        <?= $this->Html->script(['bootstrap/bootstrap.js', 'moment.min.js', 'dashboard.js']); ?>
     </footer>
     </body>
 </html>
