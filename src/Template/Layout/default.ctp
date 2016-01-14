@@ -58,17 +58,19 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <a style="" class="navbar-brand" href="#"> NSA Surveillance</a>
         </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-      <li ><?= $this->Html->link(__('Surveillance'), ['controller'=>'dashboard','action' => 'dashboard']) ?></li>
-          <li ><?= $this->Html->link(__('Sentiment Analysis'), ['controller'=>'dashboard','action' => 'dashboard2']) ?></li>
-          <li ><?= $this->Html->link(__('Revenue'), ['controller'=>'dashboard','action' => 'revenue']) ?></li>
-        <li ><?= $this->Html->link(__('New Feed'), ['controller'=>'feeds','action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('All Drones'), ['controller'=>'feeds','action' => 'index']) ?></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+                <li ><?= $this->Html->link(__('Surveillance'), ['controller'=>'dashboard','action' => 'dashboard']) ?></li>
+                <li ><?= $this->Html->link(__('Sentiment Analysis'), ['controller'=>'dashboard','action' => 'dashboard2']) ?></li>
+                <li ><?= $this->Html->link(__('Revenue'), ['controller'=>'dashboard','action' => 'revenue']) ?></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li ><?= $this->Html->link(__('New Feed'), ['controller'=>'feeds','action' => 'add']) ?></li>
+                <li><?= $this->Html->link(__('All Drones'), ['controller'=>'feeds','action' => 'index']) ?></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
 </nav>
 <?= $this->Flash->render() ?>
 <section class="container-fluid">
