@@ -52,7 +52,7 @@
 <div id="page-wrapper">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Revenue Summary</h1>
+            <h1 class="page-header">Revenue Summary (₦)</h1>
         </div>
         <!-- /.col-lg-12 -->
     </div>
@@ -152,7 +152,7 @@
         <div class="col-lg-8">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <i class="fa fa-bar-chart-o fa-fw"></i> Amount Processed per Month
+                    <i class="fa fa-bar-chart-o fa-fw"></i> Amount Processed per Month (₦)
                     <div class="pull-right">
                         <div class="btn-group">
                             <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
@@ -184,7 +184,7 @@
         <div class="col-lg-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <i class="fa fa-bell fa-fw"></i> Amount processed from Banks
+                    <i class="fa fa-bell fa-fw"></i> Amount processed from Banks (₦)
                 </div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">
