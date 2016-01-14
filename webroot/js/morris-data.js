@@ -4,58 +4,68 @@ $(function() {
         element: 'morris-area-chart',
         data: [{
             period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
-        }, {
+            banks: 2666,
+            capMark: null,
+            insurance: 2647,
+            telecoms: 2647
+            }, {
+            period: '2010 Q1',
+            banks: 2666,
+            capMark: null,
+            insurance: 2647,
+            telecoms: 2647
+            }, {
             period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
-        }, {
+            banks: 2778,
+            capMark: 2294,
+            insurance: 2441,
+            telecoms: 2789
+            }, {
             period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
-        }, {
+            banks: 4912,
+            capMark: 1969,
+            insurance: 2501,
+            telecoms: 1567
+            }, {
             period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
-        }, {
+            banks: 3767,
+            capMark: 3597,
+            insurance: 5689,
+            telecoms: 1890
+            }, {
             period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
-        }, {
+            banks: 6810,
+            capMark: 1914,
+            insurance: 2293,
+            telecoms: 1909
+            }, {
             period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
-        }, {
+            banks: 5670,
+            capMark: 4293,
+            insurance: 1881,
+            telecoms: 2000
+            }, {
             period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
-        }, {
+            banks: 4820,
+            capMark: 3795,
+            insurance: 1588,
+            telecoms: 2100
+            }, {
             period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
-        }, {
+            banks: 15073,
+            capMark: 5967,
+            insurance: 5175,
+            telecoms: 2200
+            }, {
             period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
-        }, {
-            period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
-        }],
+            banks: 10687,
+            capMark: 4460,
+            insurance: 2028,
+            telecoms: 2300
+            }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['banks', 'capMark', 'insurance', 'telecoms'],
+        labels: ['Banks', 'Capital Markets', 'Insurance', 'Telecommunications'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
@@ -63,15 +73,34 @@ $(function() {
 
     Morris.Donut({
         element: 'morris-donut-chart',
-        data: [{
-            label: "Download Sales",
-            value: 12
+        data: [
+        {
+            label: "FCMB",
+            value: 12.7
         }, {
-            label: "In-Store Sales",
+            label: "First Bank",
+            value: 30.6
+        }, {
+            label: "Diamond Bank",
+            value: 20.8
+        }, {
+            label: "Fidelity Bank",
+            value: 13.9
+        }, {
+            label: "GTBank PLC",
             value: 30
         }, {
-            label: "Mail-Order Sales",
-            value: 20
+            label: "KeyStone Bank",
+            value: 20.2
+        },  {
+            label: "Skye Bank",
+            value: 13.1
+        }, {
+            label: "Wema Bank",
+            value: 32.4
+        }, {
+            label: "Access Bank",
+            value: 21.5
         }],
         resize: true
     });

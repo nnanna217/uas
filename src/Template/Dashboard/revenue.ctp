@@ -52,7 +52,7 @@
 <div id="page-wrapper">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Dashboard</h1>
+            <h1 class="page-header">Summary</h1>
         </div>
         <!-- /.col-lg-12 -->
     </div>
@@ -152,7 +152,7 @@
         <div class="col-lg-8">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <i class="fa fa-bar-chart-o fa-fw"></i> Invoices
+                    <i class="fa fa-bar-chart-o fa-fw"></i> Amount Processed per Month
                     <div class="pull-right">
                         <div class="btn-group">
                             <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
@@ -160,12 +160,13 @@
                                 <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu pull-right" role="menu">
-                                <li><a href="#">Approved</a>
+                                <li><a href="#">Banks</a>
                                 </li>
-                                <li><a href="#">Flagged</a>
+                                <li><a href="#">Insurance</a>
                                 </li>
-                                <li class="divider"></li>
-                                <li><a href="#">Approved with Warnings</a>
+                                <li><a href="#">Capital Markets</a>
+                                </li>
+                                <li><a href="#">Telecommunications</a>
                                 </li>
                             </ul>
                         </div>
@@ -183,29 +184,11 @@
         <div class="col-lg-4">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <i class="fa fa-bell fa-fw"></i> Notifications Panel
+                    <i class="fa fa-bell fa-fw"></i> Amount processed from Banks
                 </div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item">
-                            <i class="fa fa-list fa-fw"></i> 20 Bills Approved
-                                    <span class="pull-right text-muted small"><em>4 minutes ago</em>
-                                    </span>
-                        </a>
-                        <a href="#" class="list-group-item">
-                            <i class="fa fa-list-alt fa-fw"></i> 9 Bills Rejected
-                                    <span class="pull-right text-muted small"><em>12 minutes ago</em>
-                                    </span>
-                        </a>
-                        <a href="#" class="list-group-item">
-                            <i class="fa fa-list-ol fa-fw"></i> 9 Pending Invoice
-                                    <span class="pull-right text-muted small"><em>27 minutes ago</em>
-                                    </span>
-                        </a>
-                    </div>
-                    <!-- /.list-group -->
-                    <a href="#" class="btn btn-default btn-block">View All Alerts</a>
+                    <div id="morris-donut-chart"></div>
                 </div>
                 <!-- /.panel-body -->
             </div>
