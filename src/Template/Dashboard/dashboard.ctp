@@ -167,7 +167,7 @@
 	<div class="row" style="margin-top: 20px">
 		<div class="col-xs-12">
 			<img style="width: 100%;" src="../img/Timeline.png"
-				class="img-responsive" />
+				class="img-responsive"/>
 		</div>
 	</div>
 </div>
