@@ -55,16 +55,20 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <!--  <div class="huge"><a style="" class="navbar-brand" href="/"><b><h6> NSA DASHBOARD</h6></b></a></div>
-            <div class="huge"><a style="" class="navbar-brand" href="/"><b><h5> CRITICAL INFRASTRUCTURE</h5></b></a></div>-->
-            <img style="width: 100%; display: block; margin: auto"
-                 src="../img/coat-of.png" "
+          <!-- <div class=""><a style="" class="navbar-brand" href="../dashboard/dashboard"><img  src="../img/coat.png" width="50" height="20"/><b> NSA DASHBOARD</b></a></div>-->
+            <img style="width: 100%; display: block; margin-top:6px;"
+                 src="../img/coat-of1.png" "
             class="">
+            <!--<div class="huge"><a style="" class="navbar-brand" href="/"><b><h5> CRITICAL INFRASTRUCTURE</h5></b></a></div>-->
+            <!--<img style="width: 100%; display: block; margin: auto"
+                 src="../img/coat-of.png" "
+            class="">-->
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-left">
+                <li ><?= $this->Html->link(__('Critical Infrastructure'), ['controller'=>'dashboard','action' => '/dashboard']) ?></li>
                 <li ><?= $this->Html->link(__('Sentiment Analysis'), ['controller'=>'dashboard','action' => 'dashboard2']) ?></li>
                 <li ><?= $this->Html->link(__('Revenue Assurance'), ['controller'=>'dashboard','action' => 'revenue']) ?></li>
                 <li ><?= $this->Html->link(__('Financial Intelligence'), ['controller'=>'dashboard','action' => 'money']) ?></li>
