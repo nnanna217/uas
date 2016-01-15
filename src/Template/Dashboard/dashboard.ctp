@@ -119,7 +119,7 @@
 					<section>
 						<div id="static-map">
 							<img style="width: 100%; display: block; margin: auto"
-								src="img/monitor.jpg" "
+								src="../img/monitor.jpg" "
                             class="">
 							<p class="text-primary text-center">2016-01-15</p>
 						</div>
@@ -166,7 +166,7 @@
 	</div>
 	<div class="row" style="margin-top: 20px">
 		<div class="col-xs-12">
-			<img style="width: 100%;" src="img/Timeline.png"
+			<img style="width: 100%;" src="../img/Timeline.png"
 				class="img-responsive" />
 		</div>
 	</div>
