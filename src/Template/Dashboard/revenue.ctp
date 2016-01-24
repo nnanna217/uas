@@ -154,7 +154,7 @@
         <!-- /.row -->
         <div class="well">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-7">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <i class="fa fa-bar-chart-o fa-fw"></i> Amount Processed - Quarter on Quarter (₦)
@@ -204,7 +204,7 @@
                     <!-- /.panel -->
                 </div>
                 <!-- /.col-lg-8 -->
-                <div class="col-lg-4">
+                <div class="col-lg-5">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <i class="fa fa-bell fa-fw"></i> Amount processed from Banks (₦)
@@ -230,7 +230,7 @@
                                             <li><span style='background:#FB8072;'></span></li>
                                             <li>KeyStone Bank</li>
                                             <li><span style='background:#80B1D3;'></span></li>
-                                            <li>Wema Bank</li>
+                                            <li>Wema Bank</li><br>
                                             <li><span style='background:#80B1D3;'></span></li>
                                             <li>Access Bank</li>
                                         </ul>
@@ -247,7 +247,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Amount process per year</div>
+                    <div class="panel-heading">Amount processed per year (₦)</div>
                     <div class="panel-body">
                         <div id="bar-ex"></div>
                     </div>
