@@ -230,7 +230,7 @@
                                             <li><span style='background:#FB8072;'></span></li>
                                             <li>KeyStone Bank</li>
                                             <li><span style='background:#80B1D3;'></span></li>
-                                            <li>Wema Bank</li><br>
+                                            <li>Wema Bank</li>
                                             <li><span style='background:#80B1D3;'></span></li>
                                             <li>Access Bank</li>
                                         </ul>
