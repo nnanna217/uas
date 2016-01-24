@@ -124,7 +124,7 @@ $(function() {
                 label: "Suspicious Activity",
                 value: 11
             }, {
-                label: "Unauthorised access",
+                label: "Unauthorized access",
                 value: 22
             }],
         resize: true
@@ -169,5 +169,7 @@ $(function() {
         hideHover: 'auto',
         resize: true
     });
+    
+    
 
 });

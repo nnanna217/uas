@@ -12,81 +12,81 @@
  * @since         0.10.0
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
-
 $cakeDescription = 'CakePHP: the rapid development php framework';
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-    <?= $this->Html->charset() ?>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        NSA Surveillance
-    </title>
+    <head>
+        <?= $this->Html->charset() ?>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            NSA Surveillance
+        </title>
 
 
 
-    <?= $this->Html->meta('icon') ?>
+        <?= $this->Html->meta('icon') ?>
 
-    <?= $this->Html->css(['bootstrap/bootstrap.min.css','Site.css','metisMenu/dist/metisMenu.min.css',
-        'timeline.css','sb-admin-2.css','morrisjs/morris.css']) ?>
-    <!-- MetisMenu CSS -->
-    <!--     <link href="../css/metisMenu/dist/metisMenu.min.css" rel="stylesheet"> -->
+        <?=
+        $this->Html->css(['bootstrap/bootstrap.min.css', 'Site.css', 'metisMenu/dist/metisMenu.min.css',
+            'timeline.css', 'sb-admin-2.css', 'morrisjs/morris.css'])
+        ?>
+        <!-- MetisMenu CSS -->
+        <!--     <link href="../css/metisMenu/dist/metisMenu.min.css" rel="stylesheet"> -->
 
-    <!-- Timeline CSS -->
-    <!--     <link href="../css/timeline.css" rel="stylesheet"> -->
+        <!-- Timeline CSS -->
+        <!--     <link href="../css/timeline.css" rel="stylesheet"> -->
 
-    <!-- Custom CSS -->
-    <!--     <link href="../css/sb-admin-2.css" rel="stylesheet"> -->
+        <!-- Custom CSS -->
+        <!--     <link href="../css/sb-admin-2.css" rel="stylesheet"> -->
 
-    <!-- Morris Charts CSS -->
-    <!--     <link href="../css/morrisjs/morris.css" rel="stylesheet"> -->
+        <!-- Morris Charts CSS -->
+        <!--     <link href="../css/morrisjs/morris.css" rel="stylesheet"> -->
 
-    <?= $this->Html->script(['jquery/jquery.min.js']);?>
+<?= $this->Html->script(['jquery/jquery.min.js']); ?>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-    <?= $this->fetch('meta') ?>
-    <?= $this->fetch('css') ?>
-    <?= $this->fetch('script') ?>
-</head>
-<body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <!-- <div class=""><a style="" class="navbar-brand" href="../dashboard/dashboard"><img  src="../img/coat.png" width="50" height="20"/><b> NSA DASHBOARD</b></a></div>-->
-            <img style="width: 100%; display: block; margin-top:6px;"
-                 src="../img/coat-of1.png" "
-            class="">
-            <!--<div class="huge"><a style="" class="navbar-brand" href="/"><b><h5> CRITICAL INFRASTRUCTURE</h5></b></a></div>-->
-            <!--<img style="width: 100%; display: block; margin: auto"
-                 src="../img/coat-of.png" "
-            class="">-->
-        </div>
+        <?= $this->fetch('meta') ?>
+        <?= $this->fetch('css') ?>
+<?= $this->fetch('script') ?>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <!-- <div class=""><a style="" class="navbar-brand" href="../dashboard/dashboard"><img  src="../img/coat.png" width="50" height="20"/><b> NSA DASHBOARD</b></a></div>-->
+                    <img style="width: 100%; display: block; margin-top:6px;"
+                         src="../img/coat-of1.png" "
+                         class="">
+                    <!--<div class="huge"><a style="" class="navbar-brand" href="/"><b><h5> CRITICAL INFRASTRUCTURE</h5></b></a></div>-->
+                    <!--<img style="width: 100%; display: block; margin: auto"
+                         src="../img/coat-of.png" "
+                    class="">-->
+                </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left">
-                <li ><?= $this->Html->link(__('Critical Infrastructure'), ['controller'=>'dashboard','action' => '/dashboard']) ?></li>
-                <li ><?= $this->Html->link(__('Sentiment Analysis'), ['controller'=>'dashboard','action' => 'dashboard2']) ?></li>
-                <li ><?= $this->Html->link(__('Revenue Assurance'), ['controller'=>'dashboard','action' => 'revenue']) ?></li>
-                <li ><?= $this->Html->link(__('Financial Intelligence'), ['controller'=>'dashboard','action' => 'money']) ?></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li ><?= $this->Html->link(__('New Feed'), ['controller'=>'feeds','action' => 'add']) ?></li>
-                <li><?= $this->Html->link(__('All Drones'), ['controller'=>'feeds','action' => 'index']) ?></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li ><?= $this->Html->link(__('Critical Infrastructure'), ['controller' => 'dashboard', 'action' => '/dashboard']) ?></li>
+                        <li ><?= $this->Html->link(__('Sentiment Analysis'), ['controller' => 'dashboard', 'action' => 'dashboard2']) ?></li>
+                        <li ><?= $this->Html->link(__('Revenue Assurance'), ['controller' => 'dashboard', 'action' => 'revenue']) ?></li>
+                        <li ><?= $this->Html->link(__('Financial Intelligence'), ['controller' => 'dashboard', 'action' => 'money']) ?></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li ><?= $this->Html->link(__('New Feed'), ['controller' => 'feeds', 'action' => 'add']) ?></li>
+                        <li><?= $this->Html->link(__('All Drones'), ['controller' => 'feeds', 'action' => 'index']) ?></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
 <?= $this->Flash->render() ?>
-<section class="container-fluid">
-    <body class="secure_bg">
-    <?= $this->fetch('content') ?>
-
-    <footer>
-        <?= $this->Html->script(['bootstrap/bootstrap.js', 'moment.min.js', 'dashboard.js']); ?>
-    </footer>
-    </body>
+        <section class="container-fluid">
+            <body class="secure_bg">
+                    <?= $this->fetch('content') ?>
+                <footer>
+<?= $this->Html->script(['bootstrap/bootstrap.js', 'moment.min.js', 'dashboard.js']); ?>
+                </footer>
+            </body>
 </html>
