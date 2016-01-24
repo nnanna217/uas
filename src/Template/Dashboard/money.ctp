@@ -199,7 +199,7 @@
                                                     <li><span style='background:#BEBADA;'></span></li>
                                                     <li>Access or Credentials Abuse (14)</li>
                                                     <li><span style='background:#FB8072;'></span></li>
-                                                    <li>Suspicious Activity (11)</li><br>
+                                                    <li>Suspicious Activity (11)</li>
                                                     <li><span style='background:#80B1D3;'></span></li>
                                                     <li>Unauthorized access(22) </li>
                                                 </ul>
